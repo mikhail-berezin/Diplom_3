@@ -10,8 +10,7 @@ public class DriverFactory extends ExternalResource {
 
     public DriverFactory() {
 
-
-        System.setProperty("webdriver.chrome.driver", "C:\\webdrivers\\yandexdriver.exe");
+//        System.setProperty("webdriver.chrome.driver", "C:\\webdrivers\\yandexdriver.exe");
         driver = new ChromeDriver();
     }
 
